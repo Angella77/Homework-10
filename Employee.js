@@ -1,35 +1,28 @@
 // TODO: Write code to define and export the Employee class
-constructor(name, id, email) {
-    if (typeof name !== "string" || !name.trim().length) {
-        throw new Error("Expected parameter 'name' to be a non-empty string");
+class Employee {
+    constructor(name, id, email) {
+        this.id = id;
+        this.name = name;
+        this.title = 'Employee';
+        this.email = email;
     }
 
-    this.name = name;
-    this.id = id;
-    this.email = email;
+    // Getters
+    getId() {
+        return this.id;
+    }
 
-}
-// These are all Getters
-getName() {
-    // console.log(`Employee Name: ${this.name} `);
-    return this.name;
-};
+    getName() {
+        return this.name;
+    }
 
-getId() {
-    // console.log(`Employee ID: ${this.id}`);
-    return this.id;
-};
+    getRole() {
+        return this.title;
+    }
 
-getEmail() {
-    // console.log(`Employee Email: ${this.email}`);
-    return this.email;
-}
-
-getRole() {
-    // It will return what this object functionally is-- the string: 'employee'
-    // console.log(`Employee Role: ${this.getRole}`);
-    return "Employee";
-  }
+    getEmail() {
+        return this.email;
+    }
 
 }
 

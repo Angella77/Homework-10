@@ -1,0 +1,68 @@
+body{
+    background-color:black;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+#teamName{
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-size: 58px;
+    padding: 7%;
+}
+
+footer{
+    background-color: violet;
+    color: wheat;
+    font-size: 18px;
+    padding: 4%;
+}
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(178, 188, 190, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 3px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    margin: 0;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    
+}
+
+.role{
+    color: whitesmoke;
+    font-size: 32px;
+}
+
+.card .card-body {
+    padding: 0 24px;
+    margin-top: 24px;
+}
+
+.list-group {
+    display: block;
+    margin: 10px 16px 0 18px;
+    font-size: 26px;
+    line-height: 30px;
+    color: black;
+    background-color: blue;
+    padding-bottom: 20px;
+}
+
+#footerName{
+    color: white;
+}
